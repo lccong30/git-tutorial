@@ -185,7 +185,14 @@ const students = [
         name: "Lê Vân",
         age: "18",
         country: "Lâm Đồng"
+    },
+    {
+        id: Math.random(),
+        name: "Phương Nhi",
+        age: "20",
+        country: "BD"
     }
+
 
 ]
 
