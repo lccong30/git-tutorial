@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="manage__product">
+            <h1 class="title">Quản Lý Sản Phẩm</h1>
+            <form id="product__list-form">
+                <input type="text" id="hiddenIdPrd" />
+                <div class=" form-group">
+                    <label for="product__name">Tên sản phẩm</label>
+                    <input type="text" id="product__name" placeholder="Tên sản phẩm" />
+                </div>
+                <div class="form-group">
+                    <label for="QLSP/index.html">Giá tiền</label>
+                    <input type="text" id="product__price" placeholder="Tên sản phẩm" />
+                </div>
+                <div class="form-group">
+                    <label for="product__qty">Số lượng</label>
+                    <input type="text" id="product__qty" placeholder="Tên sản phẩm" />
+                </div>
+                <div class="form-group">
+                    <div class="form-group-radio">
+                        <label>
+                            Hiện
+                            <input type="radio" checked name="product__status" value="1" />
+                        </label>
+                        <label>
+                            Ẩn
+                            <input type="radio" name="product__status" value="0" />
+                        </label>
+                    </div>
+                </div>
+                <button class="btn" type="submit">Lưu</button>
+            </form>
+        </div>
+
+    </div>
+    <div class="product__list">
+        <h1 class="title">Danh Sách Sản Phẩm</h1>
+
+        <table border="1px" style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <th>#ID</th>
+                <th>Tên sản phẩm</th>
+                <th>Giá sản phẩm</th>
+                <th>Số lượng</th>
+                <th>Trạng thái</th>
+                <th>Hanh dong</th>
+            </thead>
+            <tbody id="product-items">
+                <tr>
+                    <td>123</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button onclick="handle(1)">sua</button>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
