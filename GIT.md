@@ -1,4 +1,8 @@
 ## Tạo brand mới
--- git checkout -b {brand name}
+-- git checkout -b {branch name}
 ## Merge brand
--- git merge {brand name}
+-- git merge {branch name}
+## Xem các branch
+-- git branch
+## Xoa branch
+-- git branch -d {branch name}
